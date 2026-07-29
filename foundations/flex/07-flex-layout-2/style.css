@@ -41,8 +41,7 @@ body {
   box-shadow: 2px 4px 16px rgba(0,0,0,.06);
   border-radius: 4px;
   flex:0 0 200px;
-  height: 200px;
-  margin:40px;
+  margin:30px;
 }
 
 ul {
@@ -53,12 +52,11 @@ a {
   text-decoration: none ;
 }
 
-.set-one,
-.set-two {
+.cards {
   display: flex;
   flex-wrap: wrap;
-  gap:10px;
   margin-right: auto;
+  padding: 48px;
 }
 
 .main {
@@ -69,10 +67,4 @@ a {
 a {
   font-size: 24px;
   color:white;
-}
-
-.cards {
-  display: flex;
-  flex-direction: column;
-  margin-right: auto;
 }
