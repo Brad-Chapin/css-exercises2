@@ -5,13 +5,15 @@ body {
 
 * {
   font-size: 16px;
-  margin: 12px; 
+  margin: 12px;
 }
 
 .card {
   width: 400px;
   background: white;
   margin: 12px auto;
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
 
 .title,
@@ -30,6 +32,7 @@ button {
 
 .button-container {
   text-align: center;
+  padding-bottom: 8px;
 }
 
 .title,
