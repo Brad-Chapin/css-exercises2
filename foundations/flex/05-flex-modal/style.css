@@ -15,7 +15,20 @@ body {
   justify-content: center;
 }
 
+.header {
+  padding-left: 10px;
+  margin-right:auto;
+  font-weight: 700;
+  font-size: 20px;
+}
+
 .modal {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap:20px;
+  /* justify-content: space-between; */
   background: white;
   width: 480px;
   border-radius: 10px;
@@ -66,4 +79,34 @@ button.cancel {
   background: white;
   border: 1px solid #ddd;
   color: royalblue;
+}
+
+.top {
+  display: flex;
+  width:100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.middle {
+  padding-left: 60px;
+  width:90%;
+  display:flex;
+}
+
+.bottom {
+  padding-left: 60px;
+  gap:8px;
+  width:90%;
+  display: flex;
+  justify-content: flex-start;
+}
+
+.close {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.text {
+  font-size: 18px;
 }
